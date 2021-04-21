@@ -4,7 +4,7 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-      "url": "https://chr1s.dev/assets/chatWallBanner.png",
+      "url": "https://chr1s.dev/assets/chatWallBannerNoText.png",
       "title": "ChatWall",
       "package": "com.chr1s.chatwall",
       "hideShadow": false
