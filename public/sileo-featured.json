@@ -1,0 +1,19 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://chr1s.dev/assets/chatWallBanner.png",
+      "title": "ChatWall",
+      "package": "com.chr1s.chatwall",
+      "hideShadow": false
+    },
+    {
+      "url": "https://repo-cdn.dynastic.co/261146443010539521.007581d1f4ad3d84f1dd74e75b3e9268-750?size=750",
+      "title": "HideDots",
+      "package": "com.chr1s.hidedots",
+      "hideShadow": false
+    }
+  ]
+}
