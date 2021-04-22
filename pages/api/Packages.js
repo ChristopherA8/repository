@@ -6,9 +6,9 @@ const spaceRegExp = /\s/g
 export default (req, res) => {
 	const url = getRepoUrl(req)
 	const result = []
-	let sileoDepictions = {
-		discord_video_loop: `${url}SileoDepictions/discord-video-loop.json`,
-	}
+	// let sileoDepictions = {
+	// 	discord_video_loop: `${url}SileoDepictions/discord-video-loop.json`,
+	// }
 	for (const name in packages) {
 		const versions = packages[name]
 		for (const version in versions) {
@@ -21,9 +21,9 @@ export default (req, res) => {
 			icons[name] && strings.push(`Icon: ${url}${icons[name]}`)
 			strings.push(`Depiction: ${url}${name.replace(spaceRegExp, '-')}`)
 
-			if (sileoDepictions[name.replace(spaceRegExp, '_')]) {
-				strings.push(`SileoDepiction: ${sileoDepictions[name.replace(spaceRegExp, '_')]}`)
-			}
+			// if (sileoDepictions[name.replace(spaceRegExp, '_')]) {
+			// 	strings.push(`SileoDepiction: ${sileoDepictions[name.replace(spaceRegExp, '_')]}`)
+			// }
 
 			result.push(strings.join('\n'))
 		}
