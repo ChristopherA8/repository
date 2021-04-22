@@ -1,0 +1,41 @@
+{
+	"minVersion": "0.4",
+	"class": "DepictionTabView",
+	"headerImage": "https://chr1s.dev/assets/chatWallBannerNoText.png",
+	"tintColor": "#326464",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionHeaderView",
+					"title": "ChatWall"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Custom wallpapers for iMessage chats"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"screenshots": [
+						{
+							"url": "https://cdn.discordapp.com/attachments/705873943395041430/834828606534189117/IMG_0360.PNG",
+							"accessibilityText": "first screenshot"
+						},
+						{
+							"url": "https://cdn.discordapp.com/attachments/705873943395041430/834828280330846208/IMG_0381.PNG",
+							"accessibilityText": "second screenshot"
+						},
+						{
+							"url": "https://cdn.discordapp.com/attachments/705873943395041430/834828823215734804/image.png",
+							"accessibilityText": "third screenshot"
+						}
+					],
+					"itemCornerRadius": "0.5",
+					"itemSize": "{750,1334}"
+				}
+			]
+		}
+	]
+}
