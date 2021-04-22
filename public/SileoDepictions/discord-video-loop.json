@@ -1,0 +1,22 @@
+{
+	"minVersion": "0.4",
+	"class": "DepictionTabView",
+	"headerImage": "",
+	"tintColor": "",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionHeaderView",
+					"title": "Discord Video Loop"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Hi **This is a sileo depiction**"
+				}
+			]
+		}
+	]
+}

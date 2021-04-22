@@ -2,7 +2,10 @@ import Links from './Links'
 import Page from './Page'
 import Section, { SectionPadding } from './Section'
 
-import { icons } from '../loader!../repo'
+// This didn't work
+// import { icons } from '../loader!../repo'
+// This does
+import { icons } from '../repo'
 
 export default function Depiction({ children, name, subtitle, github }) {
 	return (
@@ -48,9 +51,13 @@ export default function Depiction({ children, name, subtitle, github }) {
 			</Section>
 			<Links>
 				{[
-					{ icon: '/assets/link-icons/PayPal.png', label: 'PayPal', href: 'https://www.paypal.me/' },
-					{ icon: '/assets/link-icons/Discord.png', label: 'Discord', href: 'https://discord.gg/' },
-					{ icon: '/assets/link-icons/Twitter.png', label: 'Twitter', href: 'https://twitter.com/' },
+					{
+						icon: '/assets/link-icons/PayPal.png',
+						label: 'PayPal',
+						href: 'https://www.paypal.com/paypalme/Chr1sDev',
+					},
+					{ icon: '/assets/link-icons/Discord.png', label: 'Discord', href: 'https://discord.gg/ZmWwy4e' },
+					{ icon: '/assets/link-icons/Twitter.png', label: 'Twitter', href: 'https://twitter.com/Chr1sDev' },
 					{ icon: '/assets/link-icons/GitHub.png', label: 'GitHub', href: github },
 				]}
 			</Links>
