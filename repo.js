@@ -11,4 +11,5 @@ exports.packages = [
 exports.icons = {
 	ChatWall: 'assets/chatWall/icon.png',
 	HideDots: 'assets/hideDots/icon.png',
+	ChatWall_Beta: 'assets/chatWall/icon.png',
 }
