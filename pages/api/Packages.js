@@ -19,7 +19,8 @@ export default (req, res) => {
 				strings.push(`${entry}: ${p.meta[entry]}`)
 			}
 
-			icons[name] && strings.push(`Icon: ${url}${icons[name.replace(spaceRegExp, '_')]}`)
+			icons[name.replace(spaceRegExp, '_')] &&
+				strings.push(`Icon: ${url}${icons[name.replace(spaceRegExp, '_')]}`)
 			strings.push(`Depiction: ${url}${name.replace(spaceRegExp, '-')}`)
 
 			if (sileoDepictions[name.replace(spaceRegExp, '_')]) {
