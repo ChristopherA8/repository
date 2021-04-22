@@ -2,10 +2,8 @@ import Links from './Links'
 import Page from './Page'
 import Section, { SectionPadding } from './Section'
 
-// This didn't work
-// import { icons } from '../loader!../repo'
-// This does
-import { icons } from '../repo'
+// This only works in prod
+import { icons } from '../loader!../repo'
 
 export default function Depiction({ children, name, subtitle, github }) {
 	return (
