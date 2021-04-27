@@ -9,6 +9,7 @@ export default (req, res) => {
 	let sileoDepictions = {
 		discord_video_loop: `${url}SileoDepictions/discord-video-loop.json`,
 		ChatWall_Beta: `${url}SileoDepictions/ChatWall-Beta.json`,
+		NoNewContactPhotoAvailableBanner: `${url}SileoDepictions/NoNewContactPhotoAvailableBanner.json`,
 	}
 	for (const name in packages) {
 		const versions = packages[name]

@@ -1,0 +1,22 @@
+{
+	"minVersion": "0.4",
+	"class": "DepictionTabView",
+	"headerImage": "",
+	"tintColor": "",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionHeaderView",
+					"title": "NoNewContactPhotoAvailableBanner"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Hide the 'New contact photo available' banner in iMessage chats"
+				}
+			]
+		}
+	]
+}
