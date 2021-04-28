@@ -1,9 +1,9 @@
 import Depiction from '../components/Depiction'
 
-export default function hidegamecenterbanner() {
+export default function HideGameCenterBanner() {
 	return (
 		<Depiction
-			name="hidegamecenterbanner"
+			name="HideGameCenterBanner"
 			github="https://github.com/Chr1sDev/hidegamecenterbanner"
 			subtitle="Self Explanatory"
 		>
