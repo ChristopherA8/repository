@@ -38,7 +38,7 @@ export default function Depiction({ children, name, subtitle, github }) {
 				}
 			`}</style>
 			<div className="title">
-				<img src={icons[name]} alt={`${name} icon`} />
+				<img src={icons[name] ? icons[name] : 'https://repo.chr1s.dev/assets/icon.png'} alt={`${name} icon`} />
 				<div className="titles">
 					<h1>{name}</h1>
 					{subtitle && <h2>{subtitle}</h2>}
