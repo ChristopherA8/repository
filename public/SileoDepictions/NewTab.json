@@ -1,0 +1,22 @@
+{
+	"minVersion": "0.4",
+	"class": "DepictionTabView",
+	"headerImage": "",
+	"tintColor": "",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionHeaderView",
+					"title": "NewTab"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Add new tab button to the safari toolbar"
+				}
+			]
+		}
+	]
+}
