@@ -11,11 +11,12 @@ export default (req, res) => {
 		ChatWall_Beta: `${url}SileoDepictions/ChatWall-Beta.json`,
 		NoNewContactPhotoAvailableBanner: `${url}SileoDepictions/NoNewContactPhotoAvailableBanner.json`,
 		NewTab: `${url}SileoDepictions/NewTab.json`,
+		TapFlash: `${url}SileoDepictions/TapFlash.json`,
 	}
 	for (const name in packages) {
 		const versions = packages[name]
 		for (const version in versions) {
-			const p = versions[version] // package is a reserved variable name
+			const p = versions[version] // package is a reserved variable nametap
 			const strings = []
 			for (const entry in p.meta) {
 				strings.push(`${entry}: ${p.meta[entry]}`)

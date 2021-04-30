@@ -1,0 +1,22 @@
+{
+	"minVersion": "0.4",
+	"class": "DepictionTabView",
+	"headerImage": "",
+	"tintColor": "",
+	"tabs": [
+		{
+			"class": "DepictionStackView",
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionHeaderView",
+					"title": "TapFlash"
+				},
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "Quickly access the flashlight by pressing the up + down volume buttons simultaneously"
+				}
+			]
+		}
+	]
+}
