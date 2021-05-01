@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import ReactGA from 'react-ga'
 ReactGA.initialize('G-DPZBNHC6MZ')
 
