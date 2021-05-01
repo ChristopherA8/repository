@@ -6,11 +6,11 @@ import { name as repoName } from '../loader!../repo'
 import Page from '../components/Page'
 import { getRepoUrl } from '../utils'
 
-useEffect(() => {
-	ReactGA.pageview(window.location.pathname + window.location.search)
-}, [])
-
 export default function Home({ repoURL }) {
+	useEffect(() => {
+		ReactGA.pageview(window.location.pathname + window.location.search)
+	}, [])
+
 	const inputRef = useRef()
 	return (
 		<Page>
