@@ -1,8 +1,14 @@
 import { useRef } from 'react'
+import ReactGA from 'react-ga'
+ReactGA.initialize('G-DPZBNHC6MZ')
 
 import { name as repoName } from '../loader!../repo'
 import Page from '../components/Page'
 import { getRepoUrl } from '../utils'
+
+useEffect(() => {
+	ReactGA.pageview(window.location.pathname + window.location.search)
+}, [])
 
 export default function Home({ repoURL }) {
 	const inputRef = useRef()
