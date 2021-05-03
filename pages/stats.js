@@ -6,8 +6,6 @@ import gql from 'graphql-tag'
 import { setCookie, parseCookies, destroyCookie } from 'nookies'
 import { useMemo, useRef, useState, createContext, useContext, useEffect } from 'react'
 import TimeAgo from 'timeago-react'
-import * as dotenv from 'dotenv'
-dotenv.config({ path: __dirname + '../.env' })
 
 import Page from '../components/Page'
 
