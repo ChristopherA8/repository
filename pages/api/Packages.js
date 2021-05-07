@@ -12,6 +12,7 @@ export default (req, res) => {
 		NoNewContactPhotoAvailableBanner: `${url}SileoDepictions/NoNewContactPhotoAvailableBanner.json`,
 		NewTab: `${url}SileoDepictions/NewTab.json`,
 		TapFlash: `${url}SileoDepictions/TapFlash.json`,
+		Current: `${url}SileoDepictions/Current.json`,
 	}
 	for (const name in packages) {
 		const versions = packages[name]
