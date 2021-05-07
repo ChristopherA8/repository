@@ -9,12 +9,18 @@
 			"tabname": "Details",
 			"views": [
 				{
-					"class": "DepictionHeaderView",
-					"title": "Current"
-				},
+					"class": "DepictionMarkdownView",
+					"markdown": "Wave battery indicator"
+				}
+			]
+		},
+		{
+			"class": "DepictionStackView",
+			"tabname": "Changelog",
+			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "Wave battery indicator for the homescreen"
+					"markdown": "## 1.0.0-beta2\n - Added a lot of stuff :)\n - This is a very informative changelog"
 				}
 			]
 		}
