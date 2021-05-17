@@ -17,6 +17,7 @@ exports.packages = [
 	// Current
 	'https://github.com/Chr1sDev/Current/releases/download/v1.0.0-beta1/com.chr1s.current_1.0.0_iphoneos-arm.deb',
 	'https://github.com/Chr1sDev/Current/releases/download/v1.0.0-beta2/com.chr1s.current_1.0.0-beta2_iphoneos-arm.deb',
+	'https://github.com/Chr1sDev/Current/releases/download/v1.0.2/com.chr1s.current_1.0.2_iphoneos-arm.deb',
 	// 'https://github.com/Chr1sDev/Vibin/releases/download/v1.0.0-beta1/com.chr1s.vibin_1.0.0_iphoneos-arm.deb',
 	'https://github.com/Chr1sDev/hidesiriball/releases/download/v1.0.0/com.chr1s.hidesiriball_1.0.0_iphoneos-arm.deb',
 ]
