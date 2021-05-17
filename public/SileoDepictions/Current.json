@@ -13,6 +13,8 @@
 					"markdown": "Wave battery indicator\nDemo: [https://youtu.be/0l_Kd3hSu64?t=79](https://youtu.be/0l_Kd3hSu64?t=79)"
 				},
 				{
+					"itemSize": "{160, 275.41333333333336}",
+					"itemCornerRadius": 6,
 					"class": "DepictionScreenshotsView",
 					"screenshots": [
 						{
@@ -24,8 +26,6 @@
 							"accessibilityText": "second screenshot"
 						}
 					],
-					"itemCornerRadius": "8",
-					"itemSize": "{250,444}"
 				}
 			]
 		},
