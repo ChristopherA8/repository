@@ -11,6 +11,21 @@
 				{
 					"class": "DepictionMarkdownView",
 					"markdown": "Wave battery indicator\nDemo: [https://youtu.be/0l_Kd3hSu64?t=79](https://youtu.be/0l_Kd3hSu64?t=79)"
+				},
+				{
+					"class": "DepictionScreenshotsView",
+					"screenshots": [
+						{
+							"url": "https://cdn.discordapp.com/attachments/705873943395041430/843767339707269130/IMG_0670.PNG",
+							"accessibilityText": "first screenshot"
+						},
+						{
+							"url": "https://cdn.discordapp.com/attachments/705873943395041430/843767333621334076/IMG_0672.PNG",
+							"accessibilityText": "second screenshot"
+						}
+					],
+					"itemCornerRadius": "8",
+					"itemSize": "{375,667}"
 				}
 			]
 		},
