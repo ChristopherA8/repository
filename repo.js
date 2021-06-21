@@ -21,7 +21,9 @@ exports.packages = [
 	'https://github.com/Chr1sDev/Current/releases/download/v1.0.4/com.chr1s.current_1.0.4_iphoneos-arm.deb',
 	// 'https://github.com/Chr1sDev/Vibin/releases/download/v1.0.0-beta1/com.chr1s.vibin_1.0.0_iphoneos-arm.deb',
 	'https://github.com/Chr1sDev/hidesiriball/releases/download/v1.0.0/com.chr1s.hidesiriball_1.0.0_iphoneos-arm.deb',
+	// TikTok Clear Comments
 	'https://github.com/Chr1sDev/tiktokclearcomments/releases/download/v1.0.0/com.chr1s.tiktokclearcomments_1.0.0_iphoneos-arm.deb',
+	'https://github.com/Chr1sDev/tiktokclearcomments/releases/download/v1.0.1/com.chr1s.tiktokclearcomments_1.0.1_iphoneos-arm.deb',
 ]
 
 exports.icons = {
