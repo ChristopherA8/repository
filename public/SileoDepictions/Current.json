@@ -35,6 +35,10 @@
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
+					"markdown": "## 1.0.5\n - Added option to only show wave while charging\n- Fix twitter cell image"
+				},
+				{
+					"class": "DepictionMarkdownView",
 					"markdown": "## 1.0.4\n - Fix orientation resizing issue"
 				},
 				{
