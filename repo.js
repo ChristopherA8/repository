@@ -25,7 +25,7 @@ exports.packages = [
 	// TikTok Clear Comments
 	'https://github.com/Chr1sDev/tiktokclearcomments/releases/download/v1.0.0/com.chr1s.tiktokclearcomments_1.0.0_iphoneos-arm.deb',
 	'https://github.com/Chr1sDev/tiktokclearcomments/releases/download/v1.0.1/com.chr1s.tiktokclearcomments_1.0.1_iphoneos-arm.deb',
-	'https://github.com/Chr1sDev/ActionPotato/releases/download/v1.0.0/com.chr1s.actionpotato_1.0.0_iphoneos-arm.deb',
+	// 'https://github.com/Chr1sDev/ActionPotato/releases/download/v1.0.0/com.chr1s.actionpotato_1.0.0_iphoneos-arm.deb',
 ]
 
 exports.icons = {
