@@ -55,7 +55,7 @@ export default function Depiction({ children, name, subtitle, github }) {
 						href: 'https://www.paypal.com/paypalme/Chr1sDev',
 					},
 					{ icon: '/assets/link-icons/Discord.png', label: 'Discord', href: 'https://discord.gg/ZmWwy4e' },
-					{ icon: '/assets/link-icons/Twitter.png', label: 'Twitter', href: 'https://twitter.com/Chr1sDev' },
+					{ icon: '/assets/link-icons/Twitter.png', label: 'Twitter', href: 'https://twitter.com/ChristopherA8' },
 					{ icon: '/assets/link-icons/GitHub.png', label: 'GitHub', href: github },
 				]}
 			</Links>
